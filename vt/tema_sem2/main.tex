@@ -1,0 +1,42 @@
+\documentclass[12pt,a4paper]{article}
+
+% Pachete esențiale pentru limba română și diacritice
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[romanian]{babel}
+
+% Margini și spațiere
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+% Pachete pentru citate și referințe
+\usepackage{csquotes}
+\usepackage[backend=biber,style=iso-authoryear]{biblatex}
+\addbibresource{bibliografie.bib}
+
+% Titlul lucrării
+\title{Lucrare de Seminar - Semestrul 2 \\ [0.5ex] \large Analiza Teologică a Termenului: a ascuta}
+\author{Student: Țacu Darius Ștefan \\ Grupa 7}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+
+\section{Selecție de Versete Biblice}
+\input{sections/01-versete.tex}
+
+\section{Perspective Patristice}
+\input{sections/02-patristica.tex}
+
+\section{Comentarii Moderne și Reflecții Proprii}
+\input{sections/03-comentarii.tex}
+
+\newpage
+\printbibliography[title={Bibliografie}]
+
+\end{document}

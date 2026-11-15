@@ -1,0 +1,12 @@
+#let title = "EXEGEZA ȘI COMENTARIUL BIBLIC AL CĂRȚII PROFETULUI ISAIA"
+#let subtitle = "Studiu exegetic, filologic și teologic la Isaia, capitolele 46–47: Căderea zeilor și a fiicei Babilonului"
+#let course = "Studiul Vechiului Testament – Seminar An II"
+#let author_name = "ȚACU"
+#let author_first = "Darius Ștefan"
+#let professor = "lect. dr. Cristinel Iatan"
+#let year = "2026"
+#let faculty = "Facultatea de Teologie Ortodoxă \"Justinian Patriarhul\""
+#let university = "Universitatea din București"
+#let locality = "București"
+#let smallcaps(body) = text(features: ("smcp",))[#body]
+#let sc(nume) = smallcaps(nume)

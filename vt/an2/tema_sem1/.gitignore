@@ -1,0 +1,9 @@
+/build/
+*.pdf
+*.aux
+*.log
+*.out
+*.toc
+*.bcf
+*.run.xml
+*.synctex.gz

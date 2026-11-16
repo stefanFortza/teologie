@@ -24,7 +24,11 @@
 
 == Teme teologice
 
-Tema centrală este unicitatea și suveranitatea lui Dumnezeu asupra istoriei. Ea se articulează cu tema purtării de grijă, cu judecata idolatriei, cu responsabilitatea morală a puterii și cu apropierea mântuirii. Prăbușirea Babilonului nu este doar schimbare geopolitică, ci dezvăluirea limitelor oricărei pretenții de absolutizare a creaturii.
+Tema teologico-ontologică a pericopei constă în antiteza dintre idolatria materială și Dumnezeul Cel Viu. Zeii caldeeni, Bel și Nebo, sunt demascați ca simple obiecte inerte, purtate ca poveri grele de vitele ostenite, incapabile să se salveze pe sine. În opoziție dogmatică, Iahve nu depinde de un suport cultic și nu trebuie purtat, ci El Însuși Își poartă poporul din pântece până la căruntețe. Distincția este strict ontologică: idolul reprezintă materia moartă absolutizată de om, pe când Iahve este Subiectul viu, liber și purtător de grijă al creației Sale.
+
+Din perspectivă istorică și geografică, Babilonul depășește statutul de simplu spațiu al exilului, devenind arhetipul imperiului asupritor care își absolutizează propria putere. Totuși, Iahve Își demonstrează controlul suveran asupra istoriei chemând „pasărea de pradă” de la răsărit – identificată cu regele persan Cirus. Integrarea unui monarh păgân în iconomia divină ca instrument al judecății arată că succesiunea imperiilor nu este rodul autonomiei politice absolute, ci se desfășoară exclusiv sub hotărârea Dumnezeului lui Israel.
+
+Dimensiunea narativă și simbolică este concentrată în personificarea cetății drept „fiica Babilonului”. Femeia care suferea de o mândrie luciferică și își asuma o falsă omnipotență („Eu sunt și nu este alta”) decade abrupt de la rangul de regină la condiția umilitoare de sclavă la râșniță. Dezgolirea ei reprezintă demascarea publică în fața judecății divine. În paralel, profetul arată falimentul sistemelor caldeene de divinație: astrologii se dovedesc incapabili să oprească pedeapsa, demonstrând că nicio cunoaștere științifică a creației, dacă se substituie revelației divine, nu poate oferi mântuire.
 
 == Exegeză patristică
 

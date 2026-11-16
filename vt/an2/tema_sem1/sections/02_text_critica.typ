@@ -15,7 +15,7 @@ Comparația se concentrează strict asupra locurilor divergente dintre Ediția S
   [“Bel kneels down, Nebo bends low. Their images weigh down animals and beasts. Your heavy images are burdensome to tired animals.”],
 )
 
-*Analiză filologică:* *Nebo* (TM: נְב֔וֹ) și *Dagon* (LXX: Δαγων) în *Isaia* 46, 1: textul masoretic indică pe Nabu/Nebo, care era fiul zeului Bel și era considerat zeul ințelepciunii și scrierii, în timp ce traducătorii alexandrini au identificat imaginea prin numele zeului filistean al vegetației, Dagon.#footnote[]
+*Analiză filologică:* *Nebo* (TM: נְבוֹ) și *Dagon* (LXX: Δαγων) în *Isaia* 46, 1: textul masoretic indică pe Nabu/Nebo, care era fiul zeului Bel și era considerat zeul ințelepciunii și scrierii, în timp ce traducătorii alexandrini au identificat imaginea prin numele zeului filistean al vegetației, Dagon.
 În a doua jumătate a versetului, LXX afirmă faptul că idolii au fost purtați de oameni, în timp ce TM și Sinodală subliniază că idolii devin poveri pentru vitele obosite. Această diferență de perspectivă sugerează o interpretare mai antropocentrică în LXX, în contrast cu accentul pe neputința idolilor în TM și Sinodală.
 
 #table(
@@ -99,7 +99,7 @@ Comparația se concentrează strict asupra locurilor divergente dintre Ediția S
 
 În schimb, Septuaginta afirmă *prezența* cărbunilor („pentru că ai cărbuni de foc, stai pe ei!”). Aici, cărbunii nu mai sunt un element de mângâiere, ci simbolizează focul patimilor și al pedepsei – o imagine înrudită cu avertismentul Sfântului Apostol Pavel despre a grămădi „cărbuni de foc pe capul lui” (*Romani* 12, 20).
 
-Pe baza variantei alexandrine, Sfinții Părinți interpretează acești cărbuni în cheie morală și eshatologică. Origen arată că omul nepocăit își adună singur provizii de cărbuni prin stăruința în păcate, pregătindu-și propriul chin; Eusebiu de Cezareea vede aici focul condamnării practicilor demonice (magia și astrologia caldeeană); iar Sfântul Grigorie de Nazianz identifică acest foc cu lucrarea purificatoare a lui Hristos, care arde latura pătimașă și materială a omului.#footnote[Sinteza exegezei patristice la acest verset este preluată din aparatul critic al traducerii românești: Cristian #sc("BĂDILIȚĂ") et alii (coord.), _Septuaginta. 6/I: Isaia, Ieremia, Baruh, Plângeri, Epistola lui Ieremia_, Ed. Polirom, Iași, 2011, p. 234]
+Pe baza variantei alexandrine, Sfinții Părinți interpretează acești cărbuni în cheie morală și eshatologică. Origen arată că omul nepocăit își adună singur provizii de cărbuni prin stăruința în păcate, pregătindu-și propriul chin; Eusebiu de Cezareea vede aici focul condamnării practicilor demonice (magia și astrologia caldeeană); iar Sfântul Grigorie de Nazianz identifică acest foc cu lucrarea purificatoare a lui Hristos, care arde latura pătimașă și materială a omului.#footnote[Sinteza exegezei patristice la acest verset este preluată din aparatul critic al traducerii românești: Cristian #sc("BĂDILIȚĂ") et alii (coord.), _Septuaginta. 6/I: Isaia, Ieremia, Baruh, Plângeri, Epistola lui Ieremia_, Ed. Polirom, Iași, 2011, p. 234.]
 
 #table(
   columns: (1.6cm, 4.2cm, 5cm, 5cm),

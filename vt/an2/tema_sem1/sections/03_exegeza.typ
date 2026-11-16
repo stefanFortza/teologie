@@ -3,9 +3,6 @@
 = III. Context Exegetic
 
 == Întrebările contextului
-= III. Context Exegetic
-
-== Întrebările contextului
 
 / Cine?: Actorii principali care conturează teologia capitolelor 46–47 sunt:
   - *Isaia* (vocea profetică din spatele textului _Deutero-Isaia_): Trimisul care rostește sentința asupra Babilonului și promisiunea eliberării.

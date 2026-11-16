@@ -11,25 +11,25 @@ Deși asumată canonic drept o operă unitară a cărei temă centrală este rev
 
 == 2. Redarea conținutului capitolelor 46–47
 
-În *Isaia* 46, Bel și Nebo, divinități ale Babilonului, nu-și pot salva statuile de la captivitate. Chipurile lor sacre sunt încărcate pe animale și devin poveri pentru vitele obosite. Imaginea este răsturnată în mod deliberat: Dumnezeul lui Israel nu este purtat de oameni, ci Își poartă poporul din pântece până la căruntețe. Chemarea la pocăință se întemeiază pe amintirea faptelor dumnezeiești și culminează cu vestirea apropierii mântuirii pentru Sion.
+În *Isaia* 46, Bel și Nebo, divinitățile supreme ale Babilonului, se dovedesc incapabile să-și salveze propriile statui din fața captivității. Chipurile lor sacre sunt încărcate pe animale, devenind simple poveri pentru vitele obosite. Imaginea este răsturnată în mod deliberat de profet: Dumnezeul lui Israel nu trebuie purtat de oameni, ci El Însuși Își poartă poporul din pântece și până la căruntețe. Chemarea la pocăință se întemeiază pe anamneza faptelor dumnezeiești și culminează cu vestirea apropierii mântuirii pentru Sion.
 
-În *Isaia* 47, „fiica Babilonului” este personificată ca o regină răsfățată, coborâtă brusc de pe tron în țărână. Ea trece de la lux și putere la munca umilitoare a râșniței și la rușinea robiei. Cruzimea față de cei slabi și falsa siguranță a cetății sunt urmate de falimentul orgoliului: formula „Eu sunt și nu este alta” devine parodia unei pretenții divine. Astrologii, descântătorii și ghicitorii caldei nu pot împiedica pedeapsa care vine asupra cetății.
+În *Isaia* 47, „fiica Babilonului” este personificată sub chipul unei regine răsfățate, detronată brusc și aruncată în țărână. Ea decade de la lux și putere imperială la munca umilitoare a râșniței și la rușinea robiei. Cruzimea manifestată față de cei slabi și falsa ei siguranță sunt urmate de falimentul orgoliului: formula „Eu sunt și nu este alta” devine o ironie a pretenției de divine. În fața judecății implacabile, astrologii, descântătorii și toți experții caldei se dovedesc neputincioși, fiindu-le imposibil să împiedice pedeapsa care vine asupra cetății.
 
-== 3. Împărțirea pe pericope cu versete
+== 3. Împărțirea pe pericope a capitolelor 46–47
 
 === *Isaia* 46
 
 #enum(
-  [vv. 1–4: idolii purtați pe vite, în contrast cu Dumnezeu care poartă pe Israel;],
-  [vv. 5–7: fabricarea futilă a idolilor și neputința lor de a răspunde;],
-  [vv. 8–11: suveranitatea istorică a lui Dumnezeu și trimiterea păsării de la răsărit;],
-  [vv. 12–13: apropierea mântuirii și chemarea celor cu inima împietrită.],
+  [vv. 1–4: Zădărnicia idolilor purtați ca poveri, în antiteză cu Iahve, Cel Care Își poartă poporul;],
+  [vv. 5–7: Incomparabilitatea lui Dumnezeu și neputința absolută a idolilor de a mântui;],
+  [vv. 8–11: Suveranitatea divină asupra istoriei și chemarea păsării de pradă de la răsărit;],
+  [vv. 12–13: Apropierea izbăvirii și chemarea celor cu inima împietrită.],
 )
 
 === *Isaia* 47
 
 #enum(
-  [vv. 1–5: detronarea fiicei Babilonului și rușinea robiei;],
-  [vv. 6–9: cruzimea față de bătrâni și pierderea pretenției la perenitate;],
-  [vv. 10–15: falimentul vrăjitoriei, al astronomilor și al ghicitorilor lunari.],
+  [vv. 1–5: Judecata și detronarea „fiicei Babilonului”, redusă la rușinea robiei;],
+  [vv. 6–9: Cruzimea asupritorilor față de poporul ales și prăbușirea iluziei de stăpânire imperială;],
+  [vv. 10–15: Falimentul absolut al magiei, al astrologiei și al sistemelor caldeene de divinație.],
 )

@@ -1,0 +1,307 @@
+#import "metadata.typ": *
+
+#set page(
+  paper: "a4",
+  margin: (top: 2.5cm, bottom: 2cm, left: 3cm, right: 2cm),
+  header: context {
+    if counter(page).get().first() > 1 {
+      align(right)[#text(size: 9pt, style: "italic")[#title]]
+    }
+  },
+  footer: context {
+    align(center)[#text(size: 10pt)[#counter(page).display("1")]]
+  },
+)
+#set text(font: "Times New Roman", size: 12pt, lang: "ro")
+#set par(
+  leading: 0.82em,
+  justify: true,
+  first-line-indent: 1.25cm,
+  spacing: 1em,
+)
+#show heading.where(level: 1): set block(breakable: true)
+#show heading.where(level: 1): set text(size: 14pt, weight: "bold")
+#show heading.where(level: 2): set text(size: 12pt, weight: "bold")
+
+#page(numbering: none)[
+  #align(center)[
+    #v(1cm)
+    #text(size: 14pt, weight: "bold")[#university]
+    #v(0.35cm)
+    #text(size: 13pt)[#faculty]
+    #v(2.5cm)
+    #text(size: 15pt, weight: "bold")[#course]
+    #v(2cm)
+    #text(size: 18pt, weight: "bold")[#title]
+    #v(0.5cm)
+    #text(size: 14pt, style: "italic")[#subtitle]
+    #v(3cm)
+    #align(right)[
+      #text(size: 12pt)[Autor: #author_first #author_name]
+      #linebreak()
+      #text(size: 12pt)[Profesor coordonator: #professor]
+    ]
+    #v(1fr)
+    #text(size: 12pt)[#locality, #year]
+  ]
+]
+
+#pagebreak()
+#outline(title: "Cuprins", indent: 1.2em)
+#pagebreak()
+
+#include "sections/01_precontext.typ"
+#include "sections/02_text_critica.typ"
+#include "sections/03_exegeza.typ"
+#include "sections/04_actualizare.typ"
+#include "sections/05_bibliografie.typ"
+= IV. Actualizarea pastorală a mesajului
+
+Mesajul capitolelor 46 și 47 este de o actualitate izbitoare, revelând faptul că, deși decorul istoric s-a schimbat, omul a rămas fundamental același în raport cu ispita idolatriei.
+
+În primul rând, textul denunță incapacitatea idolilor de a salva. Astăzi, idolii de lemn sau de aur au fost înlocuiți de ecrane (telefoanele inteligente) și de o tehnologie orientată agresiv spre utopia transumanismului, iar vechii argintari au fost substituiți de ingineri și tehnicieni. Totuși, problema omului este de natură strict ontologică, generată de căderea în păcat, și nu își poate găsi rezolvarea în planul imanent al acestei lumi. Orice nădejde investită în acești idoli tehnologici moderni nu face decât să agraveze chinul existențial al omului, transformându-l într-o simplă anexă a propriilor sale creații (așa cum idolii caldeeni deveniseră o povară pentru vitele ostenite).
+
+În antiteză cu această neputință, glasul lui Iahve din *Isaia* 46 este un semnal de alarmă și, totodată, o declarație a supremei purtări de grijă dumnezeiești: „pe care v-am purtat din pântecele maicii voastre”. Dumnezeu ne arată mila Sa nesfârșită, contrastând viu cu amăgirea obiectelor moarte în care ne căutăm astăzi siguranța.
+
+În al doilea rând, capitolul 47 avertizează asupra falsei securități și a prăbușirii subite („fără veste”). Asemenea Babilonului antic, omul contemporan încearcă să trișeze realitatea și să evite responsabilitatea în fața lui Dumnezeu, refugiindu-se fie în controlul tehnologic absolut, fie în surogate spirituale (astrologie, esoterism). Efortul său este, însă, direcționat greșit. Omul se luptă pe un plan existențial total străin de cel în care se dă cu adevărat lupta mântuirii. Folosind imaginea Sfântului Apostol Pavel, omul lipsit de Hristos se luptă zadarnic, „ca unul care lovește în aer” (*1 Corinteni* 9, 26). El încearcă să controleze materialul, să citească viitorul în stele sau în algoritmi, ignorând faptul că adevăratul război este cel nevăzut, lăuntric, iar singura salvare reală se află în restaurarea relației personale cu Dumnezeul Cel viu.
+#import "../metadata.typ": *
+
+= II. Text și Critică Textuală
+
+Comparația se concentrează strict asupra locurilor divergente dintre Ediția Sinodală, Septuaginta în traducerea Polirom și Textul Masoretic (NET Bible). Pentru claritatea demersului exegetic, prezentarea comparativă și analiza critică se fac verset cu verset.
+
+== 1. Capitolul 46: Neputința idolilor și planul divin
+
+#table(
+  columns: (1.6cm, 4.2cm, 5cm, 5cm),
+  table.header([*Verset*], [*Ediția Sinodală*], [*Septuaginta (LXX / Polirom)*], [*Textul Masoretic (TM / NET)*]),
+  [*Isaia* 46, 1],
+  [„Bel se prăbuşeşte, Nebo este răsturnat, chipurile lor aşezate pe vite şi pe dobitoace. Chipurile, pe care voi acum le purtaţi, sunt încărcate şi au ajuns o povară pentru vitele trudite.”],
+  [„A căzut Bel, s-a sfărâmat Dagon, şi chipurile lor cioplite [au ajuns] la fiare şi la dobitoace. Le purtaţi legate ca pe o povară pentru cel ostenit”],
+  [“Bel kneels down, Nebo bends low. Their images weigh down animals and beasts. Your heavy images are burdensome to tired animals.”],
+)
+
+*Analiză filologică:* *Nebo* (TM: נְב֔וֹ) și *Dagon* (LXX: Δαγων) în *Isaia* 46, 1: textul masoretic indică pe Nabu/Nebo, care era fiul zeului Bel și era considerat zeul ințelepciunii și scrierii, în timp ce traducătorii alexandrini au identificat imaginea prin numele zeului filistean al vegetației, Dagon.#footnote[]
+În a doua jumătate a versetului, LXX afirmă faptul că idolii au fost purtați de oameni, în timp ce TM și Sinodală subliniază că idolii devin poveri pentru vitele obosite. Această diferență de perspectivă sugerează o interpretare mai antropocentrică în LXX, în contrast cu accentul pe neputința idolilor în TM și Sinodală.
+
+#table(
+  columns: (1.6cm, 4.2cm, 5cm, 5cm),
+  table.header([*Verset*], [*Ediția Sinodală*], [*Septuaginta (LXX / Polirom)*], [*Textul Masoretic (TM / NET)*]),
+  [*Isaia* 46, 2],
+  [„Idolii cad, se prăbuşesc laolaltă, nu pot să izbăvească pe cei care îi poartă; ei înşişi sunt duşi în robie.”],
+  [„...flămând, slăbit şi fără nici o putere, care nu vor putea să izbăvească de război, şi ei înşişi au fost duşi în robie.”],
+  [“Together they bend low and kneel down; they are unable to rescue the images; they themselves head off into captivity.”],
+)
+
+*Analiză filologică:* În *Isaia* 46, 2 se observă o schimbare majoră a direcției acțiunii de salvare între martorii textuali. Ediția Sinodală subliniază faptul că idolii nu pot să îi salveze pe oamenii care îi poartă, ceea ce sugerează că poporul păgân încă aștepta o intervenție izbăvitoare din partea zeităților, și nu neapărat că încerca să se opună distrugerii idolilor. În contrast direct, Textul Masoretic (redat prin NET Bible) arată că oamenii sunt cei care nu își pot salva zeii („unable to rescue the images”). Septuaginta nuanțează această neputință adăugând un element contextual specific: idolii nu vor putea să izbăvească „de război”, mutând astfel accentul pe inutilitatea lor protectivă în fața iminentului dezastru politico-militar.
+
+#table(
+  columns: (1.6cm, 4.2cm, 5cm, 5cm),
+  table.header([*Verset*], [*Ediția Sinodală*], [*Septuaginta (LXX / Polirom)*], [*Textul Masoretic (TM / NET)*]),
+  [*Isaia* 46, 5],
+  [„Cu cine Mă veţi pune alături şi Mă veţi face egal, cu cine Mă veţi asemăna, ca să fim deopotrivă?”],
+  [„Cu cine M-aţi asemănat? Vedeţi, lucraţi cu isteţime, voi, cei rătăciţi!”],
+  [“To whom can you compare and liken me? Tell me whom you think I resemble, so we can be compared!”],
+)
+
+*Analiză filologică:* În toate cele 3 variante este prezentă ideea că Dumnezeu este de necomparat. Totuși, Textul Masoretic (împreună cu Ediția Sinodală) dezvoltă mai amplu, chemând la o provocare („Tell me whom you think I resemble”). În schimb, Septuaginta comprimă interogația divină, dar adaugă în mod specific o mustrare directă și aspră („Vedeți, lucrați cu istețime, voi, cei rătăciți!”), introducând astfel o nuanță moralizatoare.
+
+#table(
+  columns: (1.6cm, 4.2cm, 5cm, 5cm),
+  table.header([*Verset*], [*Ediția Sinodală*], [*Septuaginta (LXX / Polirom)*], [*Textul Masoretic (TM / NET)*]),
+  [*Isaia* 46, 8],
+  [„Amintiţi-vă de aceasta şi învăţaţi-vă minte, păcătoşilor!”],
+  [„Aduceţi-vă aminte de acestea şi suspinaţi. Căiţi-vă, voi cei rătăciţi, întoarceţi-vă în inima [voastră].”],
+  [“Remember this, so you can be brave. Think about it, you rebels!”],
+)
+
+*Analiză filologică:* Cele trei variante redau, în esență, aceeași idee a conștientizării păcatului și a chemării la pocăință. Diferența notabilă este că în Septuaginta accentul cade pe intimitatea omului și pe starea lăuntrică a sufletului (prin îndemnurile de a „suspina” și a se „întoarce în inimă”), spre deosebire de Textul Masoretic și Ediția Sinodală, care pun accentul mai degrabă pe faptele exterioare și pe o redresare rațională sau de atitudine („învățați-vă minte”, „be brave”).
+
+#table(
+  columns: (1.6cm, 4.2cm, 5cm, 5cm),
+  table.header([*Verset*], [*Ediția Sinodală*], [*Septuaginta (LXX / Polirom)*], [*Textul Masoretic (TM / NET)*]),
+  [*Isaia* 46, 11],
+  [„De la răsărit chem o pasăre de pradă, dintr-un ţinut depărtat un om care să împlinească planul Meu. Am vorbit, voi împlini; am hotărât, voi înfăptui!”],
+  [„Eu chem de la răsărit o pasăre şi dintr-un pământ îndepărtat, cele despre care am hotărât, am grăit şi am adus, am zidit şi am făcut, l-am adus şi i-am netezit calea”],
+  [“who summons an eagle from the east, from a distant land, one who carries out my plan. Yes, I have decreed, yes, I will bring it to pass; I have formulated a plan, yes, I will carry it out.”],
+)
+
+*Analiză filologică:* În *Isaia* 46, 11, Septuaginta operează o generalizare impersonală a planului divin („cele despre care am hotărât”), în timp ce Ediția Sinodală și Textul Masoretic menționează explicit intervenția unei persoane rânduite istoric să-l împlinească („un om” / „one who carries out my plan”).
+
+== 2. Capitolul 47: Judecata Babilonului și mândria luciferică
+
+#table(
+  columns: (1.6cm, 4.2cm, 5cm, 5cm),
+  table.header([*Verset*], [*Ediția Sinodală*], [*Septuaginta (LXX / Polirom)*], [*Textul Masoretic (TM / NET)*]),
+  [*Isaia* 47, 1],
+  [„Coboară-te şi şezi în ţărână, fecioară, fiica Babilonului, stai pe pământ fără tron, fiică a Caldeilor, că nu te va mai numi nimeni pe tine gingaşă şi plăcută!”],
+  [„Coboară-te, aşază-te pe pământ, tu, fiică fecioară a Babilonului! Intră în întuneric, fiică a chaldeilor! Că de acum nu te vei mai numi gingaşă şi desfătată.”],
+  [“Fall down! Sit in the dirt, O virgin daughter Babylon! Sit on the ground, not on a throne, O daughter of the Babylonians! Indeed, you will no longer be called delicate and pampered.”],
+)
+
+*Analiză filologică:* În *Isaia* 47, 1, Septuaginta omite sintagma „fără tron” (păstrată în TM și Sinodală). Această lipsă este semnificativă, deoarece detaliul pierderii tronului are o importanță istorică și profetică majoră, prevestind direct cucerirea iminentă a Babilonului de către perși și prăbușirea suveranității sale politice.
+
+#table(
+  columns: (1.6cm, 4.2cm, 5cm, 5cm),
+  table.header([*Verset*], [*Ediția Sinodală*], [*Septuaginta (LXX / Polirom)*], [*Textul Masoretic (TM / NET)*]),
+  [*Isaia* 47, 3],
+  [„Goliciunea ta să se descopere, să se vadă ruşinea ta. Mă voi răzbuna şi nu voi cruţa pe nimeni”],
+  [„Ţi se va descoperi ruşinea, se vor da pe faţă cele de ocară ale tale. Îmi voi lua de la tine ce este drept, nu te voi mai preda oamenilor”],
+  [“Let your naked body be exposed. Your shame will be on display! I will get revenge; I will not have pity on anyone”],
+)
+
+*Analiză filologică:* Diferența de sens provine din expresia ebraică polisemantică וְלֹא אֶפְגַּע אָדָם (_wə·lō 'ep̄·ga' 'ā·ḏām_) care se traduce mot a mot "și nu voi întâlni un om". În timp ce Ediția Sinodală și NET Bible interpretează idiomul în sensul asprimii și al lipsei de milă („nu voi cruța pe nimeni”), Septuaginta oferă o traducere teologică. Prin „nu te voi mai preda oamenilor”, textul grecesc arată că Dumnezeu Își asumă personal pedepsirea Babilonului, alegând să aplice judecata direct, fără a se mai folosi de intermediari umani.
+
+#table(
+  columns: (1.6cm, 4.2cm, 5cm, 5cm),
+  table.header([*Verset*], [*Ediția Sinodală*], [*Septuaginta (LXX / Polirom)*], [*Textul Masoretic (TM / NET)*]),
+  [*Isaia* 47, 14],
+  [„Iată-i ca pleava pe care o mistuie focul... căci nu va fi jeratic la care să se încălzească, nici vatră ca să stea dinaintea ei.”],
+  [„Iată, toţi ca nişte vreascuri în foc vor arde, şi nu-şi vor scăpa viaţa din văpaie; pentru că ai cărbuni de foc, stai pe ei!”],
+  [“Look, they are like straw that the fire burns up... There are no coals to warm them, no firelight to enjoy.”],
+)
+
+*Analiză filologică:* În *Isaia* 47, 14, sensul metaforei cărbunilor este complet inversat între tradițiile textuale. În Textul Masoretic și Ediția Sinodală, *lipsa* cărbunilor semnifică o mistuire totală a Babilonului, în urma căreia nu mai rămâne nicio sursă de căldură mângâietoare (sau căldură dumnezeiască) la care omul să se poată adăposti.
+
+În schimb, Septuaginta afirmă *prezența* cărbunilor („pentru că ai cărbuni de foc, stai pe ei!”). Aici, cărbunii nu mai sunt un element de mângâiere, ci simbolizează focul patimilor și al pedepsei – o imagine înrudită cu avertismentul Sfântului Apostol Pavel despre a grămădi „cărbuni de foc pe capul lui” (*Romani* 12, 20).
+
+Pe baza variantei alexandrine, Sfinții Părinți interpretează acești cărbuni în cheie morală și eshatologică. Origen arată că omul nepocăit își adună singur provizii de cărbuni prin stăruința în păcate, pregătindu-și propriul chin; Eusebiu de Cezareea vede aici focul condamnării practicilor demonice (magia și astrologia caldeeană); iar Sfântul Grigorie de Nazianz identifică acest foc cu lucrarea purificatoare a lui Hristos, care arde latura pătimașă și materială a omului.#footnote[Sinteza exegezei patristice la acest verset este preluată din aparatul critic al traducerii românești: Cristian #sc("BĂDILIȚĂ") et alii (coord.), _Septuaginta. 6/I: Isaia, Ieremia, Baruh, Plângeri, Epistola lui Ieremia_, Ed. Polirom, Iași, 2011, p. 234]
+
+#table(
+  columns: (1.6cm, 4.2cm, 5cm, 5cm),
+  table.header([*Verset*], [*Ediția Sinodală*], [*Septuaginta (LXX / Polirom)*], [*Textul Masoretic (TM / NET)*]),
+  [*Isaia* 47, 15],
+  [„Aşa se va întâmpla cu aceia pe care te-ai ostenit să-i întrebi şi cu care ai făcut negoţ din vremea tinereţii tale. Fiecare va pleca la ale sale şi nimeni nu va fi să te scape”.],
+  [„Aceştia îţi vor fi de ajutor. Te-ai ostenit din tinereţe cu neguţătoria ta; omul a rătăcit în de sine, dar pentru tine nu va fi mântuire.”],
+  [“They will disappoint you, those you have so faithfully dealt with since your youth. Each strays off in his own direction, leaving no one to rescue you.”],
+)
+
+*Analiză filologică:* Prima parte a versetului prezintă afirmații contradictorii între martorii textuali: Septuaginta afirmă – probabil într-o cheie profund ironică – faptul că „Aceștia îți vor fi de ajutor”, în timp ce Textul Masoretic exprimă direct eșecul lor („They will disappoint you”). Ediția Sinodală construiește un mix interpretativ între cele două tradiții, alegând o formulare de compromis: „Așa se va întâmpla cu aceia...”.
+
+În a doua jumătate a versetului se observă o diferență notabilă de traducere a textului grecesc (ἄνθρωπος καθ' ἑαυτὸν ἐπλανήθη). Ediția Polirom traduce reflexiv și interiorizat: „omul a rătăcit în de sine”. În contrast, traducerile englezești ale Septuagintei (precum Brenton: „every man has wandered to his own home”), alături de TM și Ediția Sinodală („Fiecare va pleca la ale sale”), aleg o interpretare direcțională și spațială, subliniind abandonul fizic și fuga fiecăruia pentru propria salvare, lăsând Babilonul izolat.
+= V. Bibliografie
+
+== Izvoare biblice
+
+#bibliography("../bibliografie.bib", title: none)
+
+== Izvoare patristice
+
+#enum(
+  [Chiril al Alexandriei, _Commentarius in Isaiam_, în _Patrologia Graeca_, vol. 70, Paris, J.-P. Migne.],
+  [Origen, _Filocalia_, în _Părinți și Scriitori Bisericești_, vol. 7, București, Editura Institutului Biblic și de Misiune al Bisericii Ortodoxe Române, 1982.]
+)
+
+== Instrumente filologice
+
+#enum(
+  [Brown, Francis; Driver, S. R.; Briggs, Charles A., _A Hebrew and English Lexicon of the Old Testament_, Oxford, Clarendon Press, 1907.],
+  [Liddell, Henry G.; Scott, Robert, _A Greek-English Lexicon_, Oxford, Clarendon Press, 1996.]
+)
+
+== Literatură secundară
+
+#enum(
+  [Bulai, Ioan, _Introducere în studiul Vechiului Testament_, București, Editura Institutului Biblic și de Misiune al Bisericii Ortodoxe Române, 2001.],
+  [Rahlfs, Alfred; Hanhart, Robert, _Septuaginta Polirom_, vol. 5, Iași, Polirom, 2006.],
+  [NET Bible, _New English Translation_, Biblical Studies Press, 2005.]
+)
+#import "../metadata.typ": *
+
+= III. Context Exegetic
+
+== Întrebările contextului
+= III. Context Exegetic
+
+== Întrebările contextului
+
+/ Cine?: Actorii principali care conturează teologia capitolelor 46–47 sunt:
+  - *Isaia* (vocea profetică din spatele textului _Deutero-Isaia_): Trimisul care rostește sentința asupra Babilonului și promisiunea eliberării.
+  - *Iahve*: Dumnezeul unic al lui Israel, singurul Stăpân absolut și dirijor suveran al istoriei.
+  - *Bel și Nebo*: Divinitățile supreme ale panteonului babilonian (Bel/Marduk și fiul său, zeul scrierii), reprezentând idolatria neputincioasă.
+  - *Dagon*: Zeu semitic și filistean al vegetației, utilizat strict de Septuaginta ca o echivalare culturală pentru un idol păgân arhetipal.
+  - *Pasărea de pradă* (*Isaia* 46, 11): Identificată cu regele persan *Cirus cel Mare*, pe care Iahve îl cheamă de la răsărit ca instrument al dreptății Sale pentru a cuceri Babilonul (nu Nabucodonosor).
+
+/ Cum?: Prin ironie și satiră (idolii devin poveri pentru vite), contrast teologic (Iahve Își poartă poporul, idolii trebuie purtați), personificarea aspră a Babilonului (regina aruncată în țărână) și interogații retorice menite să afirme unicitatea divină.
+
+/ Ce?: Sunt proclamate suveranitatea absolută a lui Dumnezeu asupra istoriei, neputința idolilor, căderea iminentă a Babilonului și mântuirea Sionului.
+
+/ Unde?: Teologic, discursul contrapune Babilonul (spațiul robiei și al judecății) cu Ierusalimul/Sionul (orizontul restaurării). Geografic, locul redactării este Ierusalimul în perspectiva tradițională (sec. al VIII-lea î.Hr.) sau Babilonul în perspectiva critică (timpul exilului).
+
+/ Când?: Din perspectivă tradițională, profeția este rostită în secolul al VIII-lea î.Hr. de către Isaia cel istoric, anticipând prin descoperire dumnezeiască evenimentele viitoare; din perspectivă critică modernă, textul este redactat spre sfârșitul exilului babilonian (cca. 545–539 î.Hr., perioada _Deutero-Isaia_), când ascensiunea lui Cirus cel Mare anunță prăbușirea imperiului caldeean.
+
+/ De ce?: Pentru a demasca iluzia idolatriei imperiale și a chema poporul exilat la credința în Dumnezeul viu Care, spre deosebire de idolii muți, mântuiește și poartă de grijă.
+
+
+== Teme teologice
+
+Tema centrală este unicitatea și suveranitatea lui Dumnezeu asupra istoriei. Ea se articulează cu tema purtării de grijă, cu judecata idolatriei, cu responsabilitatea morală a puterii și cu apropierea mântuirii. Prăbușirea Babilonului nu este doar schimbare geopolitică, ci dezvăluirea limitelor oricărei pretenții de absolutizare a creaturii.
+
+== Exegeză patristică
+
+Tradiția patristică citește capitolele 46–47 în cheie hristologică și duhovnicească, depășind simplul plan istoric al eliberării din Babilon.
+
+Astfel, chemarea din „ținutul depărtat” (*Isaia* 46, 11) primește la *Eusebiu de Cezareea* o interpretare hristologică și soteriologică. Cel chemat să împlinească planul dumnezeiesc este identificat cu Hristos Însuși, Care este chemat „din adâncurile iadului” (din Hades) pentru a aduce la îndeplinire întreaga iconomie a mântuirii vestită mai înainte prin profeți.#footnote[Eusebiu de Cezareea, _Commentary on Isaiah_, 2.31.13, apud Mark W. #sc("ELLIOTT") (ed.), _Isaiah 40–66_, col. „Ancient Christian Commentary on Scripture”, Old Testament XI, Ed. IVP Academic, Downers Grove, Illinois, 2007, p. 91.]
+
+În plan interior, îndemnul Septuagintei din *Isaia* 46, 8 („întoarceți-vă în inima voastră”) este valorificat de *Fericitul Augustin* ca o chemare la descoperirea prezenței lăuntrice a lui Hristos. În timp ce cuvântul predicatorului răsună doar în exterior, Hristos Însuși grăiește în taină, în adâncul inimii credincioase, învățând sufletul prin sfiala și cutremurul gândurilor.#footnote[Fericitul Augustin, _Sermon_, 102.2.2, apud Mark W. #sc("ELLIOTT") (ed.), _Isaiah 40–66_, p. 89.]
+
+Totodată, imaginea „cărbunilor de foc” din varianta septuagintală a versetului *Isaia* 47, 14 este interpretată de *Sfântul Grigorie de Nazianz* cu referire la lucrarea purificatoare a Mântuitorului. Hristos Însuși este numit „foc curățitor”, Care mistuie tot ceea ce este material și păcătos în om, dăruind credincioșilor acești cărbuni spre ajutor și sfințire.#footnote[Sfântul Grigorie de Nazianz, _On Holy Baptism_, Oration 40.36, apud Mark W. #sc("ELLIOTT") (ed.), _Isaiah 40–66_, p. 98.]
+
+
+
+== Exegeză modernă
+
+Exegeza biblică contemporană abordează capitolele 46–47 prin prisma dinamicii lor retorice, a tensiunilor textuale și a rolului structural pe care îl ocupă în arhitectura cărții profetice.
+
+Analizând pericopa din *Isaia* 46, 8–11, cercetătorii semnalează dificultățile filologice ale versetului 8, unde sensul verbului tradus prin „a chibzui” este incert, iar identitatea „răzvrătiților” vizați rămâne ambiguă. Se remarcă, de asemenea, un paralelism structural cu *Isaia* 44, 21–28: discursul debutează cu chemarea la anamneză, afirmă incomparabilitatea lui Iahve și culminează cu invocarea agentului istoric al planului divin. Deși numele lui Cirus nu este rostit explicit, metafora „păsării de pradă” – imagine recurentă în Orientul Antic pentru cuceritori – și sintagma „omul hotărârii Mele” trimit neîndoielnic la monarhul persan, integrat deplin în iconomia lui Dumnezeu.#footnote[John #sc("BARTON") și John #sc("MUDDIMAN") (ed.), _The Oxford Bible Commentary_, Ed. Oxford University Press, Oxford, 2001, p. 472.]
+
+În capitolul 47 (vv. 12–13), registrul stilistic virează spre o ironie acidă, similară modului în care profetul Ilie îi batjocorește pe profeții lui Baal (*3 Regi* 18, 27). Invitația adresată astrologilor caldeeni de a-și folosi meșteșugul este pur retorică: în ciuda faimoasei erudiții astronomice a Babilonului, observațiile celeste se dovedesc complet neputincioase în fața judecății divine.
+
+Această satiră atinge punctul culminant în versetele 14–15, unde imaginea focului care mistuie pleava reia polemica anti-idolatră din capitolul 44. Din perspectivă compozițională, această scenă marchează încheierea oracolelor îndreptate împotriva neamurilor străine (ciclu deschis în capitolul 10). Odată cu prăbușirea Babilonului, ultimul obstacol extern din calea eliberării este înlăturat, atenția profetică îndreptându-se de acum exclusiv asupra obstacolelor lăuntrice – morale și spirituale – ale comunității exilaților.#footnote[John #sc("BARTON") și John #sc("MUDDIMAN") (ed.), _The Oxford Bible Commentary_, p. 473.]
+#import "../metadata.typ": *
+
+= I. Precontextualizare
+
+== 1. Autor și carte
+
+Profetul Isaia, fiul lui Amos (*Isaia* 1, 1), era originar din Ierusalim, desfășurându-și activitatea între anii 742–684 î.Hr. A fost contemporan cu regii Ozia (781–740 î.Hr.), Iotam, Ahaz și Iezechia. Statutul său social înalt i-a asigurat accesul la curtea regală, acționând ca sfătuitor al regilor în momente de criză (precum asediul asirian din timpul lui Iezechia, relatat în cap. 37). Tradiția creștină păstrează memoria martiriului său, act înțeles ca o fidelitate absolută până la moarte și o anticipare a biruinței cuvântului lui Dumnezeu.#footnote[Sfântul Iustin #sc("MARTIRUL"), _The Dialogue with Trypho_, Ed. Society for Promoting Christian Knowledge, London, 1930, p. 42; Robert Henry #sc("CHARLES"), _The Ascension of Isaiah_, Ed. Society for Promoting Christian Knowledge, London, 1919, p. 249.]
+
+Deși asumată canonic drept o operă unitară a cărei temă centrală este revelația lui Dumnezeu ca „Sfântul lui Israel”, cercetarea biblică modernă privește *Cartea profetului Isaia* ca pe o colecție a trei documente redactate în epoci distincte. Această structură, propusă de J.C. Döderlein și B. Duhm, cuprinde *Proto-Isaia* (cap. 1–39, oracolele profetului istoric din sec. al VIII-lea î.Hr.), *Deutero-Isaia* (cap. 40–55, opera unui autor din „școala” lui Isaia din timpul exilului babilonian) și *Trito-Isaia* (cap. 56–66, prelucrări ulterioare post-exilice). Totuși, în ciuda acestui amplu proces editorial (încheiat în jurul anului 150 î.Hr., potrivit manuscriselor de la Qumran), scrierea își păstrează o unitate teologică profundă conferită de inspirația divină.#footnote[Vezi studiul introductiv la _Isaia_, în: Cristian #sc("BĂDILIȚĂ") et alii (coord.), _Septuaginta. 6/I: Isaia, Ieremia, Baruh, Plângeri, Epistola lui Ieremia_, Ed. Polirom, Iași, 2011, pp. 13–14.] În această arhitectură, capitolele 46 și 47 aparțin secțiunii *Deutero-Isaia*, caracterizată printr-un ton dătător de speranță, în care se vestește sfârșitul robiei și judecata definitivă a idolatriei babiloniene.
+
+
+== 2. Redarea conținutului capitolelor 46–47
+
+În *Isaia* 46, Bel și Nebo, divinități ale Babilonului, nu-și pot salva statuile de la captivitate. Chipurile lor sacre sunt încărcate pe animale și devin poveri pentru vitele obosite. Imaginea este răsturnată în mod deliberat: Dumnezeul lui Israel nu este purtat de oameni, ci Își poartă poporul din pântece până la căruntețe. Chemarea la pocăință se întemeiază pe amintirea faptelor dumnezeiești și culminează cu vestirea apropierii mântuirii pentru Sion.
+
+În *Isaia* 47, „fiica Babilonului” este personificată ca o regină răsfățată, coborâtă brusc de pe tron în țărână. Ea trece de la lux și putere la munca umilitoare a râșniței și la rușinea robiei. Cruzimea față de cei slabi și falsa siguranță a cetății sunt urmate de falimentul orgoliului: formula „Eu sunt și nu este alta” devine parodia unei pretenții divine. Astrologii, descântătorii și ghicitorii caldei nu pot împiedica pedeapsa care vine asupra cetății.
+
+== 3. Împărțirea pe pericope cu versete
+
+=== *Isaia* 46
+
+#enum(
+  [vv. 1–4: idolii purtați pe vite, în contrast cu Dumnezeu care poartă pe Israel;],
+  [vv. 5–7: fabricarea futilă a idolilor și neputința lor de a răspunde;],
+  [vv. 8–11: suveranitatea istorică a lui Dumnezeu și trimiterea păsării de la răsărit;],
+  [vv. 12–13: apropierea mântuirii și chemarea celor cu inima împietrită.],
+)
+
+=== *Isaia* 47
+
+#enum(
+  [vv. 1–5: detronarea fiicei Babilonului și rușinea robiei;],
+  [vv. 6–9: cruzimea față de bătrâni și pierderea pretenției la perenitate;],
+  [vv. 10–15: falimentul vrăjitoriei, al astronomilor și al ghicitorilor lunari.],
+)
+#let title = "EXEGEZA ȘI COMENTARIUL BIBLIC AL CĂRȚII PROFETULUI ISAIA"
+#let subtitle = "Studiu exegetic, filologic și teologic la Isaia, capitolele 46–47: Căderea zeilor și a fiicei Babilonului"
+#let course = "Studiul Vechiului Testament – Seminar An II"
+#let author_name = "ȚACU"
+#let author_first = "Darius Ștefan"
+#let professor = "lect. dr. Cristinel Iatan"
+#let year = "2026"
+#let faculty = "Facultatea de Teologie Ortodoxă \"Justinian Patriarhul\""
+#let university = "Universitatea din București"
+#let locality = "București"
+#let smallcaps(body) = text(features: ("smcp",))[#body]
+#let sc(nume) = smallcaps(nume)
